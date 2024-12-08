@@ -118,7 +118,7 @@ body{
     display: flex;
     justify-content: center;
     height: auto;
-    width: 100%;
+    width: 100%; background-color: #ffff;
  }
  .fristsecContaine>.items{
     height: 450px; width: 420px;
@@ -143,15 +143,17 @@ body{
     font-size: 15px; margin-bottom: 5px;
  }
  .fristsecContaine>.items1>p{
-    letter-spacing: .5px;
+    letter-spacing: .5px; text-align: justify;
  }
  .fristsecContaine>.items3>p{
-    letter-spacing: .5px;margin-top: 20px; text-align: center;
+    letter-spacing: .5px;margin-top: 20px; text-align:justify;
  }
+
+  /*Frist sectuin start............................*/
  .contractContrainer{
    height: 400px;
    width: 100%;
-   background-color: rgb(253, 144, 0);
+   background-color: rgb(172, 172, 172);
    display: flex;
    justify-content: center;
    align-items: center;
@@ -159,16 +161,96 @@ body{
  .contractContrainer>.rows{
    height: 300px;
    width: 450px;
-   background-color: #0763f7;
-   border: 1px solid black;
    margin: 5px;
  }
  .contractContrainer>.rows>.icons{
    height: 70px;
    width: 70px;
-   background-color: #20e80a;
+   background-color: #000000;
    border-radius: 100%;
  }
- .contractContrainer>.rows>.icons>i{
-   height: 100%;width: 100%;
+ .icons{
+   display: flex;
+   justify-content: center;
+   align-items:center ;
  }
+.icons>i{
+   color: white;
+   font-size: 40px;
+ }
+ .discription{
+   height: 200px;
+   width: 300px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+ }
+ .rows{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap:5px;
+ }
+ .discription>h2{
+    margin-bottom: 5px; text-align: left; width: 100%; letter-spacing: 2px;
+ }
+   /*Frist sectuin start............................*/
+   .flexcontainer{
+      width: 100%;
+      height: auto;
+      background-color: rgb(162, 162, 162);
+   }
+   .flexhead{
+      width: 100%;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap:8px;
+   }
+   .flexhead>h2{
+      letter-spacing: 2px; font-size: 35px;
+   }
+   .mainflex{
+      width: 100%;
+      height: 600px;
+      background-color:  rgb(162, 162, 162);
+      display: flex;
+      gap:5px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+   }
+   .flexitm{
+      height: au;
+      width: 450px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+   .flexicon{
+      height: 70px;
+      width: 70px;
+      border-radius: 100%;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items:center ;
+      
+   }
+   .flexicon>i{
+      font-size: 40px;
+      color:#000000; 
+      
+   }
+   .flexitm>h2{
+      margin-bottom: 5px; letter-spacing: 2px; margin-bottom: 5px;
+      color: aliceblue;
+   }
+   .flexitm>p{
+      color: #ffff;
+   }
