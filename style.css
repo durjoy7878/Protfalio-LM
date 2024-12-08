@@ -148,3 +148,27 @@ body{
  .fristsecContaine>.items3>p{
     letter-spacing: .5px;margin-top: 20px; text-align: center;
  }
+ .contractContrainer{
+   height: 400px;
+   width: 100%;
+   background-color: rgb(253, 144, 0);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .contractContrainer>.rows{
+   height: 300px;
+   width: 450px;
+   background-color: #0763f7;
+   border: 1px solid black;
+   margin: 5px;
+ }
+ .contractContrainer>.rows>.icons{
+   height: 70px;
+   width: 70px;
+   background-color: #20e80a;
+   border-radius: 100%;
+ }
+ .contractContrainer>.rows>.icons>i{
+   height: 100%;width: 100%;
+ }
